@@ -15,7 +15,7 @@ import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig {
-
+//PREPARA AS CONF PARA ACESSO ENTRE O BACK E FRONT
 	@Bean
 	public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
 		
